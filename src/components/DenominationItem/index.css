@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+.btn {
+  border: 2px solid #c4c4c4;
+  width: 300px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #c4c4c4;
+  background-color: #382f5a;
+  margin: 20px;
+}

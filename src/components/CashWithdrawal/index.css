@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 14px;
+  padding: 30px;
+  width: 80%;
+}
+.name-card {
+  display: flex;
+  flex-direction: row;
+}
+.letter {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  padding: 18px;
+  border-radius: 100px;
+  font-size: 14px;
+  margin-right: 20px;
+  font-family: 'Roboto';
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balance-element {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+.balance {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+.rupee-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rupee {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.withdraw-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 32px;
+}
+.choose {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
